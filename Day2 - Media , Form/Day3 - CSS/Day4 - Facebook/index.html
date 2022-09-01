@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="logo">
+            <a class="logo-text" href="index.html">facebook</a>
+        </div>
+
+            <div class="login">
+                <form action="">
+                <table class="login-controls">
+                    <tr>
+                        <td><label class="login-label">Email or Mobile</label></td>
+                        <td><label class="login-label">Password</label></td>
+
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input class="submit-btn"  type="submit" value="Log in"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a class="forgotten" href="forgotten.html">Forgotten Account?</a></td>
+                    </tr>
+
+                </table>
+            </form>
+            </div>
+       
+
+    </div>
+    <div class="main-body">
+        <div class="left-section">
+            <p class="para">Facebook helps you connect and share with the <br> people in your life</p>
+            <img class="image" src="d5e4d29d-0b60-4126-8280-e7f93937895b.jpg" alt="">
+
+        </div>
+        <div class="right-section">
+            <h1>Create an account</h1>
+            <h4>it's quick and easy.</h4>
+            <form action="" id="signup-form">
+                <input name="fname"  class="form"  type="text" placeholder="First Name" style="width:47.8%;">
+                <input name="sname" class="form"  type="text" placeholder="Surname" style="width:47.9%;">
+                <input name="emailmobile" class="form" type="text" placeholder="Mobile no or email">
+                <input id="pass" name="password" class="form" type="password" placeholder="New Password" style="width:47.9%;">
+                <input id="cpass" name="cpassword" class="form" type="password" placeholder="Confirm New Password" style="width:47.8%;">
+                <span id="error"></span>
+                <br>
+                <label >Birthday</label>
+                <br>
+                <select class="form" name="day" style="width: 20%;">
+                    <tr>
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </tr>
+                
+            </select>
+                <select class="form" name="month" style="width: 30%;" >
+                <tr>
+                    <option value="">Month</option>
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                </tr>
+                </select>
+                <select class="form" name="year" style="width: 20%;" >
+                
+                    <option value="">Year</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+               
+                </select>
+                <br>
+                <label>Gender</label>
+                <br>
+                <input name="gender" type="radio">
+                <label>Male</label>
+                <input name="gender" type="radio">
+                <label>Female</label>
+                <input name="gender" type="radio">
+                <label>Custom</label>
+                <br>
+                <br>
+        <input class="sign-up" type="submit" value="Sign Up">
+           
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
